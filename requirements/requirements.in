@@ -1,0 +1,17 @@
+channels
+channels_redis
+Django
+django-allauth
+django-allauth-2fa
+django-waffle
+django-environ
+djangorestframework
+drf-spectacular
+stripe
+dj-stripe
+django-anymail[mailgun]  # email services
+django-hijack
+celery-progress
+celery
+celery[redis]
+wagtail
