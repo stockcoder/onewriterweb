@@ -32,7 +32,8 @@ SECRET_KEY = env("SECRET_KEY", default="FUaOyctIlRlBUriaodwYrEennnjapBVmNSpDpdJw
 # SECURITY WARNING: don"t run with debug turned on in production!
 DEBUG = env.bool("DEBUG", default=True)
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ["ecolor.com",'127.0.0.1']
+CSRF_TRUSTED_ORIGINS = [ 'http://ecolor.com']
 
 
 # Application definition
